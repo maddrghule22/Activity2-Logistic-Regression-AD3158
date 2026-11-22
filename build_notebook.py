@@ -41,12 +41,14 @@ add_md(r"""
 
 ---
 
-| **Course** | B.Tech Artificial Intelligence & Data Science |
+| **Student Roll Number** | **AD3158** |
 |:---|:---|
+| **Course** | B.Tech Artificial Intelligence & Data Science |
 | **Course Unit** | Continuous Internal Evaluation 2 (CIE 2) — Activity 2 |
 | **Topic** | Supervised Learning: Binary Classification via Regularised Logistic Regression |
 | **Dataset** | Breast Cancer Wisconsin (Diagnostic) — Scikit-Learn / UCI Machine Learning Repository |
 | **Primary Metric** | Recall (Sensitivity) & ROC-AUC |
+| **Repository** | `Activity2-Logistic-Regression-AD3158` |
 | **Faculty Reference** | [https://github.com/complexiota](https://github.com/complexiota) |
 
 ---
@@ -1034,11 +1036,13 @@ add_md(r"""
 
 ---
 
-### 👨‍🏫 Faculty Reference
-- **GitHub Repository Reference:** [https://github.com/complexiota](https://github.com/complexiota)
+### 👨‍🏫 Academic & Course Attribution
+- **Student Roll Number:** AD3158
+- **Project Repository:** `Activity2-Logistic-Regression-AD3158`
+- **Faculty Reference:** [https://github.com/complexiota](https://github.com/complexiota)
 
 ---
-*End of CIE 2 Activity 2 Machine Learning Notebook.*
+*End of CIE 2 Activity 2 Machine Learning Notebook — Roll No: AD3158.*
 """)
 
 # Save the notebook

@@ -11,9 +11,10 @@
 ## 📌 Academic Metadata & Repository Identification
 
 - **Course:** B.Tech in Artificial Intelligence & Data Science / Computer Science Engineering
+- **Student Roll Number:** `AD3158`
 - **Evaluation Unit:** Continuous Internal Evaluation 2 (CIE 2) — Activity 2
 - **Project Title:** Binary Classification Using Logistic Regression
-- **Target Repository Name:** `Activity2-Logistic-Regression-[RollNumber]`
+- **Target Repository Name:** `Activity2-Logistic-Regression-AD3158`
 - **Faculty Mentor / Course Reference:** [https://github.com/complexiota](https://github.com/complexiota)
 - **Primary Notebook Deliverable:** [`Activity2_Logistic_Regression.ipynb`](./Activity2_Logistic_Regression.ipynb)
 
@@ -153,7 +154,7 @@ All figures are programmatically generated and stored in [`figures/`](./figures/
 ## 📂 Project Repository Structure
 
 ```
-Activity2-Logistic-Regression-[RollNumber]/
+Activity2-Logistic-Regression-AD3158/
 ├── Activity2_Logistic_Regression.ipynb   # Complete, executed, self-contained notebook
 ├── breast_cancer_diagnostic.csv          # Remapped dataset (0: Benign, 1: Malignant)
 ├── figures/                              # Publication-grade PNG charts (300 DPI)
@@ -184,8 +185,8 @@ Activity2-Logistic-Regression-[RollNumber]/
 ### Option B: Local Execution (Jupyter Lab / Notebook)
 1. **Clone or download the repository:**
    ```bash
-   git clone https://github.com/<your-username>/Activity2-Logistic-Regression-[RollNumber].git
-   cd Activity2-Logistic-Regression-[RollNumber]
+   git clone https://github.com/<your-username>/Activity2-Logistic-Regression-AD3158.git
+   cd Activity2-Logistic-Regression-AD3158
    ```
 
 2. **Create and activate a virtual environment:**

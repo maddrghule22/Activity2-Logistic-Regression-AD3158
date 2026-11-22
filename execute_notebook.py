@@ -15,4 +15,4 @@ ep.preprocess(nb, {'metadata': {'path': '.'}})
 with open("Activity2_Logistic_Regression.ipynb", "w", encoding="utf-8") as f:
     nbformat.write(nb, f)
 
-print("✅ Notebook executed successfully and all outputs recorded!")
+print("[OK] Notebook executed successfully and all outputs recorded!")
