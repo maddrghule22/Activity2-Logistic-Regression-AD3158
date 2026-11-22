@@ -275,17 +275,17 @@ Activity2-Logistic-Regression-AD3158/
    ```
 
 2. **Create and activate a virtual environment:**
-   - **On Windows (PowerShell):**
-     ```powershell
-     py -m venv .venv
-     .venv\Scripts\Activate.ps1
-     ```
-   - **On Windows (Command Prompt):**
+   - **Command Prompt:**
      ```cmd
      py -m venv .venv
      .venv\Scripts\activate.bat
      ```
-   - **On macOS / Linux (bash/zsh):**
+   - **PowerShell:**
+     ```powershell
+     py -m venv .venv
+     .\.venv\Scripts\Activate.ps1
+     ```
+   - **macOS / Linux (bash/zsh):**
      ```bash
      python3 -m venv .venv
      source .venv/bin/activate
@@ -308,12 +308,13 @@ Activity2-Logistic-Regression-AD3158/
 
 | Evaluation Component | Maximum Marks | Implementation in this Project |
 |:---|:---:|:---|
-| **Data Understanding, Preprocessing & Leakage Prevention** | **1.0 Mark** | Complete provenance citation, target label inversion ($1 - y$), stratified 80:20 split, missing value & duplicate audits, and `StandardScaler` fitted strictly on train data. |
-| **Theoretical Formulation & Sigmoid Mathematical Rigour** | **1.0 Mark** | Mathematical derivations of log-odds, why linear regression fails, sigmoid equation, derivative, cross-entropy loss function, and publication curve. |
-| **Model Training, Parameters & Coefficient Interpretation** | **1.0 Mark** | Scikit-learn `LogisticRegression` fitted with $L_2$ regularization, intercept and coefficients table with Odds Ratios ($\exp(\beta)$), top-12 weight visualization. |
-| **Comprehensive Metrics, Baseline Comparison & Visualisations** | **1.0 Mark** | Confusion matrix ($TN=71, FP=1, FN=3, TP=39$), manual vs sklearn verification of Accuracy (96.49%), Precision (97.50%), Recall (92.86%), Specificity (98.61%), F1 (95.12%); ROC curve (AUC=0.9960), PR curve (AP=0.9943), comparison against `DummyClassifier`. |
-| **Threshold Sensitivity, Cost Analysis & Clinical Ethics** | **1.0 Mark** | Threshold grid ($\theta \in \{0.30, 0.50, 0.70\}$), asymmetric clinical cost analysis ($FN \gg FP$), recommendation of $\theta = 0.30$, single-patient prediction (using training data medians only), Decision Log (D-01 to D-08), and ELSI governance disclaimer. |
-| **Total Score** | **5.0 / 5.0** | **Fully Satisfied & Academically Exemplary** |
+| **Data Understanding, Preprocessing & Leakage Prevention** | 1.0 Mark | Complete provenance citation, target label inversion ($1 - y$), stratified 80:20 split, missing value & duplicate audits, and `StandardScaler` fitted strictly on train data. |
+| **Theoretical Formulation & Sigmoid Mathematical Rigour** | 1.0 Mark | Mathematical derivations of log-odds, why linear regression fails, sigmoid equation, derivative, cross-entropy loss function, and publication curve. |
+| **Model Training, Parameters & Coefficient Interpretation** | 1.0 Mark | Scikit-learn `LogisticRegression` fitted with $L_2$ regularization, intercept and coefficients table with Odds Ratios ($\exp(\beta)$), top-12 weight visualization. |
+| **Comprehensive Metrics, Baseline Comparison & Visualisations** | 1.0 Mark | Confusion matrix ($TN=71, FP=1, FN=3, TP=39$), manual vs sklearn verification of Accuracy (96.49%), Precision (97.50%), Recall (92.86%), Specificity (98.61%), F1 (95.12%); ROC curve (AUC=0.9960), PR curve (AP=0.9943), comparison against `DummyClassifier`. |
+| **Threshold Sensitivity, Cost Analysis & Clinical Ethics** | 1.0 Mark | Threshold grid ($\theta \in \{0.30, 0.50, 0.70\}$), asymmetric clinical cost analysis ($FN \gg FP$), recommendation of $\theta = 0.30$, single-patient prediction (using training data medians only), Decision Log (D-01 to D-08), and ELSI governance disclaimer. |
+
+> *Note: Final evaluation and marks distribution are determined at the sole discretion of the course faculty.*
 
 ---
 
